@@ -7,9 +7,11 @@
                 background-image: linear-gradient(#A5A4AC,#897D5C);;
             }
             h2,p {
-                font-family: 'Roboto Thin';
+                font-family: 'Roboto Thin', sans-serif;
+                font-weight: 100;
                 background-color: rgba(255,255,255,0.5);
                 color : calc(theme.color);
+                padding: 4px 10px;
             }
             .title {
                 font-size: x-large;
@@ -25,7 +27,7 @@
     </head>
     <body>
         <img src="images/coffee_small.jpg" style="width: 100%" />
-        <h2 class="title" style="font-style:italic">{{model.greeting}}.</h2>
+        <h2 class="title" style="font-style:italic; ">{{model.greeting}}.</h2>
         <p>{{concat('From all at ', model.owner)}}</p>
     </body>
 </html>
