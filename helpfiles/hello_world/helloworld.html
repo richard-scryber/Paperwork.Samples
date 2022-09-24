@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <head>
+        <title>Hello world document</title>
+        <style>
+            body { 
+                padding : 0px;
+                background-image: linear-gradient(#A5A4AC,#897D5C);;
+            }
+            h2,p {
+                font-family: 'Roboto Thin', sans-serif;
+                background-color: rgba(255,255,255,0.5);
+                color : var(theme.color);
+            }
+            .title {
+                font-size: x-large;
+            }
+
+            @font-face {
+                font-family: 'Roboto Thin';
+                font-style: normal;
+                font-weight: 100;
+                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/coffee_small.jpg" width="100%" />
+        <h2 class="title" style="font-style:italic">{{model.greeting}}.</h2>
+        <p>{{concat('From all at ', model.owner)}}</p>
+    </body>
+</html>
