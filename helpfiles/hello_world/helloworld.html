@@ -1,35 +1,34 @@
-<?scryber append-log='true' ?>
 <html xmlns="http://www.w3.org/1999/xhtml" >
-    <head>
-        <title>Hello world document</title>
-        <style>
-            body { 
-                padding : 0px;
-                background-image: linear-gradient(#A5A4AC,#897D5C);;
-            }
-            h2, p {
-                font-family: 'Roboto Thin';
-                font-weight: 100;
-                font-style: normal;
-                background-color: rgba(255,255,255,0.5);
-                padding : 4px 10px;
-            }
-
-            .title {
-                font-size: xx-large;
-            }
-
-            @font-face {
-                font-family: 'Roboto Thin';
-                font-style: normal;
-                font-weight: 100;
-                src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
-            }
-        </style>
-    </head>
-    <body>
-        <img src="images/coffee_small.jpg" style="width: 100%" />
-        <h2 class="title" >{{model.greeting}}.</h2>
-        <p>{{concat('From all at ', model.owner)}}</p>
-    </body>
+  <head>
+    <title>Hello world document</title>
+    <style>
+      body {
+        padding : 0px;
+        background-image: linear-gradient(#A5A4AC,#897D5C);
+        ;
+      }
+      h2, p {
+        font-family: 'Roboto Thin';
+        font-weight: 100;
+        font-style: normal;
+        background-color: rgba(255,255,255,0.5);
+        padding : 4px 10px;
+        margin: 0px;
+      }
+      .title {
+        font-size: xx-large;
+      }
+      @font-face {
+        font-family: 'Roboto Thin';
+        font-style: normal;
+        font-weight: 100;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+      }
+    </style>
+  </head>
+  <body>
+    <img src="images/coffee_small.jpg" style="width: 100%" />
+    <h2 class="title" >{{model.greeting}}.</h2>
+    <p>{{concat('From all at ', model.owner)}}</p>
+  </body>
 </html>
