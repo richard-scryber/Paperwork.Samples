@@ -1,0 +1,17 @@
+{
+  "title": "Just a Sample",
+  "description" : "A sample configuration file",
+  "template":{
+    "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selecttemplate.html",
+    "type": "remote",
+    "auth": "public"
+   },
+   "data":{
+    "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json"
+    "type": "remote",
+    "auth": "public"
+    }
+   "style":{},
+   "providers":[]
+   "params":[]
+}
