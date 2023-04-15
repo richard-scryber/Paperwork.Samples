@@ -7,7 +7,7 @@
     "auth": "public"
    },
    "data":{
-    "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json"
+    "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
     "type": "remote",
     "auth": "public"
     },
