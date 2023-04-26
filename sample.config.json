@@ -6,11 +6,19 @@
     "type": "remote",
     "auth": "public"
    },
-   "data":{
-    "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
-    "type": "remote",
-    "auth": "public"
-    },
+   "data":[
+     { 
+       "name":"model",
+       "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
+       "type": "remote",
+       "auth": "public"
+    },{ 
+       "name":"items",
+       "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
+       "type": "remote",
+       "auth": "public"
+    }
+   ],
    "style":{},
    "providers":[],
    "params":[]
