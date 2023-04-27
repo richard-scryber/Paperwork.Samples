@@ -14,9 +14,8 @@
        "auth": "public"
     },{ 
        "name":"items",
-       "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
-       "type": "remote",
-       "auth": "public"
+       "content":"ewogICAgImdyZWV0aW5nIjogIkhlbGxvIHdvcmxkIiwKICAgICJjb250ZW50IjogIndlbGNvbWUgdG8gUGFwZXJ3b3JrIgp9",
+       "type": "base64"
     }
    ],
    "style":{},
