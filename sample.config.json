@@ -14,7 +14,7 @@
        "auth": "public"
     },{ 
        "name":"items",
-       "content":"ewogICAgImdyZWV0aW5nIjogIkhlbGxvIHdvcmxkIiwKICAgICJjb250ZW50IjogIndlbGNvbWUgdG8gUGFwZXJ3b3JrIgp9",
+       "value":"ewogICAgImdyZWV0aW5nIjogIkhlbGxvIHdvcmxkIiwKICAgICJjb250ZW50IjogIndlbGNvbWUgdG8gUGFwZXJ3b3JrIgp9",
        "type": "base64"
     }
    ],
