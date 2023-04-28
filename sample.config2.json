@@ -1,1 +1,24 @@
-{"title":"Just a Sample","description":"Updated description","template":{"source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selecttemplate.html","type":"remote","auth":"public"},"data":{"source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json","type":"remote","auth":"public"},"style":{},"providers":[],"params":[]}
+{
+  "title": "Just a Sample",
+  "description" : "A sample configuration file",
+  "template":{
+    "value": "PD9zY3J5YmVyIGFwcGVuZC1sb2c9J2ZhbHNlJyA/Pgo8aHRtbCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94aHRtbCI+Cgo8aGVhZD4KICA8dGl0bGU+SGVsbG8gd29ybGQgZG9jdW1lbnQKICA8L3RpdGxlPgogIDxzdHlsZT4KICAgIEBmb250LWZhY2UgewogICAgICBmb250LWZhbWlseTogJ1BvcHBpbnMnOwogICAgICBmb250LXN0eWxlOiBpdGFsaWM7CiAgICAgIGZvbnQtd2VpZ2h0OiAzMDA7CiAgICAgIHNyYzogdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9wb3BwaW5zL3YyMC9weGlEeXA4a3Y4SkhnRlZySkpMbTIxbGxFQS50dGYpIGZvcm1hdCgndHJ1ZXR5cGUnKTsKICAgIH0KCiAgICBib2R5IHsKICAgICAgcGFkZGluZzogMjBweDsKICAgIH0KCiAgICBoMiwKICAgIHAgewogICAgICBwYWRkaW5nOiAyMHB4OwogICAgfQoKICAgIC50aXRsZSB7CiAgICAgIGZvbnQtZmFtaWx5OiBQb3BwaW5zOwogICAgICBmb250LXdlaWdodDogMzAwOwogICAgICBjb2xvcjogc2lsdmVyOwogICAgICBoZWlnaHQ6IDMwMHB0OwogICAgICB0ZXh0LWFsaWduOiByaWdodDsKICAgICAgdmVydGljYWwtYWxpZ246IGJvdHRvbTsKICAgICAgZm9udC1zaXplOiA2MHB4OwogICAgfQogIDwvc3R5bGU+CjwvaGVhZD4KCjxib2R5PgogIDxoMiBjbGFzcz0idGl0bGUiIHN0eWxlPSJmb250LXN0eWxlOml0YWxpYzsgcGFkZGluZzogMzBweDsiPk9ubHkgdGhlIFN0YXRpb24gV2Fnb25zLjwvaDI+CiAgPHRhYmxlIHN0eWxlPSd3aWR0aDoxMDAlOyBtYXJnaW46NDBwdDsgZm9udC1zaXplOiAxMnB0Jz4KICAgIDx0cj4KICAgICAgPHRkPkNvbG9yPC90ZD4KICAgICAgPHRkPkNhcGFjaXR5PC90ZD4KICAgIDwvdHI+CiAgICA8dGVtcGxhdGUgZGF0YS1iaW5kPSJ7e3NlbGVjdFdoZXJlKGl0ZW1zLCAudHlwZSA9PSAnc3RhdGlvbiB3YWdvbicpfX0iPgogICAgICA8dHI+CiAgICAgICAgPHRkPnt7LmNvbG9yfX08L3RkPgogICAgICAgIDx0ZD57ey5jYXBhY2l0eX19PC90ZD4KICAgICAgPC90cj4KICAgIDwvdGVtcGxhdGU+CiAgPC90YWJsZT4KPC9ib2R5PgoKPC9odG1sPg=="
+    "type": "base64",
+    "auth": "public"
+   },
+   "data":[
+     { 
+       "name":"model",
+       "source":"https://raw.githubusercontent.com/richard-scryber/PaperworkDayDocs/main/docs/_samples/selectbinding/selectdata.json",
+       "type": "remote",
+       "auth": "public"
+    },{ 
+       "name":"items",
+       "value":"WwogICAgIHsKICAgICAiY29sb3IiOiAicmVkIiwKICAgICAidHlwZSI6ICJzdGF0aW9uIHdhZ29uIiwKICAgICAicmVnaXN0cmF0aW9uIjogIlNhdCBNYXIgMDMgMjAxOCAwMTowMDowMCBHTVQrMDEwMCAoR01UKzAxOjAwKSIsCiAgICAgImNhcGFjaXR5IjogNQogICAgIH0sCiAgICB7CiAgICAgImNvbG9yIjogInJlZCIsCiAgICAgInR5cGUiOiAiY2FicmlvIiwKICAgICAicmVnaXN0cmF0aW9uIjogIlNhdCBNYXIgMDMgMjAxMiAwMTowMDowMCBHTVQrMDEwMCAoR01UKzAxOjAwKSIsCiAgICAgImNhcGFjaXR5IjogMgogICAgIH0sCiAgICB7CiAgICAgImNvbG9yIjogImJsdWUiLAogICAgICJ0eXBlIjogInN0YXRpb24gd2Fnb24iLAogICAgICJyZWdpc3RyYXRpb24iOiAiU2F0IE1hciAwNCAyMDEyIDAxOjAwOjAwIEdNVCswMTAwIChHTVQrMDE6MDApIiwKICAgICAiY2FwYWNpdHkiOiA3CiAgICAgfQogICBd",
+       "type": "base64"
+    }
+   ],
+   "style":{},
+   "providers":[],
+   "params":[]
+}
