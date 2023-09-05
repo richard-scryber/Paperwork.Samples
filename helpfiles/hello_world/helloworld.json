@@ -1,4 +1,4 @@
 { 
     "model" : { "greeting" : "Hello World", "owner" : "the Paperwork Collective." },
-    "theme" : { "color" : "#00ffff" }   
+    "theme" : { "color" : "#00ffff", "bg": "#ff0000" }   
 }
